@@ -1,0 +1,80 @@
+:root{
+    --yellow:#f4d04e;
+    --grey-950:#111111;
+    --grey-500:#6b6b6b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-Medium.ttf') format('truetype'); 
+  font-weight: 500;  
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Figtree'; 
+  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype'); 
+  font-weight: 800;  
+  font-style: normal;
+}
+
+
+body {
+    font-family: 'Figtree', sans-serif; 
+    font-weight: 500;
+    line-height: 150%;
+    background-color: var(--yellow);
+    color: var(--grey-950);
+    min-height: 100vh;        
+    display: flex;        
+    flex-direction: column;    
+    justify-content: center;  
+    align-items: center;
+}
+
+.figtree-1{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.figtree-2{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--grey-500);
+}
+
+.figtree-3{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.figtree-4{
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 501px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 9px 7px 0px -1px rgba(0,0,0,1);
+    border: 1px solid black;
+}
