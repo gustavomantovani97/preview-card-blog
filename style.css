@@ -77,4 +77,31 @@ body {
     border-radius: 20px;
     box-shadow: 9px 7px 0px -1px rgba(0,0,0,1);
     border: 1px solid black;
+    padding: 24px;
+}
+
+.card-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.card-image img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+.learning-text{
+    padding: 4px 12px;
+    display: inline-block;
+    margin: 16px 0 14px;
+    background-color: var(--yellow);
+    border-radius: 4px;
+}
+
+.published-text{
+    font-size: 14px;
 }
