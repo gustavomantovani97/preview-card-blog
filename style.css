@@ -43,10 +43,12 @@ body {
     font-size: 24px;
 }
 
+
 .figtree-2{
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     color: var(--grey-500);
+    line-height: 20px;
 }
 
 .figtree-3{
@@ -104,4 +106,20 @@ body {
 
 .published-text{
     font-size: 14px;
+}
+
+.main-title-mobile{
+    font-size: 20px;
+    margin: 14px 0;
+}
+
+.author-container{
+    display: flex;
+    margin: 17px 0 0 0;
+    align-items: center;
+    gap: 12px;
+}
+
+.author-container img{
+    width: 32px;
 }
